@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mylayout1</string>
+    <string name="noi_dung_1">Noi Dung 1</string>
+    <string name="noi_dung_3">Noi Dung 3</string>
+    <string name="noi_dung_2">Noi Dung 2</string>
+    <string name="todo">TODO</string>
+</resources>

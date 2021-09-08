@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="#94AE95"
+            android:id="@+id/imageView5"
+            android:layout_width="250dp"
+            android:layout_height="270dp"
+            app:srcCompat="@android:drawable/ic_btn_speak_now"
+            android:contentDescription="@string/todo" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <TextView
+                android:layout_weight="2"
+                android:id="@+id/nd1"
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="#121211"
+                android:gravity="center"
+                android:text="@string/noi_dung_1"
+                android:textColor="#EAEAD5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_weight="2"
+                android:textColor="#EAEAD5"
+                android:background="#121211"
+                android:textSize="20sp"
+                android:id="@+id/nd2"
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:text="@string/noi_dung_2" />
+
+            <TextView
+                android:layout_weight="2"
+                android:background="#121211"
+                android:textColor="#EAEAD5"
+                android:textSize="20sp"
+                android:id="@+id/textView33"
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:text="@string/noi_dung_3" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#E4E4DA"
+            android:background="#F44336"
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/noi_dung_1" />
+
+        <TextView
+            android:background="#673AB7"
+            android:textSize="20sp"
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/noi_dung_2" />
+
+        <TextView
+            android:background="#ff0"
+            android:textSize="20sp"
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/noi_dung_3" />
+    </LinearLayout>
+    
+
+</LinearLayout>
+
+
